@@ -1,6 +1,9 @@
 # PheMT: A Phenomenon-wise Dataset for Machine Translation Robustness on User-Generated Contents
 
+This is a forked repository for our final project for LING342.
+
 ## Introduction
+
 PheMT is a phenomenon-wise dataset designed for evaluating the robustness of Japanese-English machine translation systems.
 The dataset is based on the MTNT dataset<sup>[1]</sup>, with additional annotations of four linguistic phenomena common in UGC; Proper Noun, Abbreviated Noun, Colloquial Expression, and Variant.
 COLING 2020.
@@ -42,8 +45,8 @@ This repository contains the following.
 │   └── variant.tsv
 └── src
     └── calc_acc.py # script for calculating translation accuracy
- ```
- 
+```
+
 Please feed both original and normalized versions of source sentences to your model to get the difference of arbitrary metrics as a robustness measure.
 Also, we extracted translations for expressions presenting targeted phenomena.
 We recommend using `src/calc_acc.py` to measure the effect of each phenomenon more directly with the help of translation accuracy.
@@ -54,12 +57,12 @@ USAGE: `python calc_acc.py system_output {proper, abbrev, colloq, variant}.align
 
 - Statistics
 
-|  Dataset  |  # sent.  |  # unique expressions (ratio)  |  average edit distance  |
-| ---- | ---- | ---- | ---- |
-|  Proper Noun  |  943  |  747 (79.2%)  |  (no normalized version)  |
-|  Abbreviated Noun  |  348  |  234 (67.2%)  |  5.04  |
-|  Colloquial Expression  |  172  |  153 (89.0%)  |  1.77  |
-|  Variant  |  103  |  97 (94.2%)  |  3.42  |
+| Dataset               | # sent. | # unique expressions (ratio) | average edit distance   |
+| --------------------- | ------- | ---------------------------- | ----------------------- |
+| Proper Noun           | 943     | 747 (79.2%)                  | (no normalized version) |
+| Abbreviated Noun      | 348     | 234 (67.2%)                  | 5.04                    |
+| Colloquial Expression | 172     | 153 (89.0%)                  | 1.77                    |
+| Variant               | 103     | 97 (94.2%)                   | 3.42                    |
 
 - Examples
 
@@ -80,6 +83,7 @@ alignment : sad
 ```
 
 ## Citation
+
 If you use our dataset for your research, please cite the following paper:
 
 ```
@@ -103,4 +107,5 @@ If you use our dataset for your research, please cite the following paper:
 ```
 
 ## Reference
+
 [1] Michel and Neubig (2018), MTNT: A Testbed for Machine Translation of Noisy Text.
