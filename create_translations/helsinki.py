@@ -4,19 +4,12 @@ import argparse
 from tqdm import tqdm
 
 def setup_baseline_transformer():
-    """
-    Baseline Transformer model for Japanese-English translation
-    using the Helsinki-NLP/opus-mt-ja-en model from HuggingFace
-    """
     model_name = "Helsinki-NLP/opus-mt-ja-en"
     tokenizer = MarianTokenizer.from_pretrained(model_name)
     model = MarianMTModel.from_pretrained(model_name)
     return model, tokenizer
 
 def translate_batch(texts, model, tokenizer, device='cuda', batch_size=32):
-    """
-    Translates a batch of texts (Japanese) to English
-    """
     model = model.to(device)
     translations = []
     
@@ -37,18 +30,17 @@ def process_file(input_file, output_file, model, tokenizer, device='cuda'):
     """
     Reads input file line by line, translates each line, and writes to output file
     """
-    # Read all lines from input file
+    # Read all lines from input
     with open(input_file, 'r', encoding='utf-8') as f:
         lines = [line.strip() for line in f if line.strip()]
     
-    # Translate all lines with the progress bar
     translations = []
     for i in tqdm(range(0, len(lines), 32), desc="Translating"):
         batch = lines[i:i + 32]
         batch_translations = translate_batch(batch, model, tokenizer, device)
         translations.extend(batch_translations)
     
-    # Write translations to output file
+    # Write translations to output
     with open(output_file, 'w', encoding='utf-8') as f:
         for translation in translations:
             f.write(translation + '\n')
