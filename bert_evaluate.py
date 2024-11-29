@@ -5,16 +5,16 @@ from tqdm import tqdm
 import numpy as np
 import os
 
-def calculate_bert_scores(references, candidates):
-    scorer = BERTScorer(lang="en", rescale_with_baseline=True)
-    P, R, F1 = scorer.score(candidates, references)
-    return P.numpy(), R.numpy(), F1.numpy()
-
 def read_file(filepath):
     with open(filepath, 'r', encoding='utf-8') as f:
-        return [line.strip() for line in f if line.strip()]
+        return [line.strip() if line.strip() else "" for line in f]
 
 def evaluate_translations(output_dir='outputs/', ref_dir='./'):
+
+    scorer = BERTScorer(
+        lang="en",
+        rescale_with_baseline=True
+    )
     
     # Define phenomena
     phenomena = {
@@ -24,7 +24,6 @@ def evaluate_translations(output_dir='outputs/', ref_dir='./'):
         'variant': {'versions': ['orig', 'norm']}
     }
     
-    # Initialize results storage
     phenomenon_scores = {}
     all_results = []
     interesting_examples_by_phenomenon = {}
@@ -52,11 +51,13 @@ def evaluate_translations(output_dir='outputs/', ref_dir='./'):
                 
                 # Check all files have same number of lines
                 assert len(references) == len(helsinki_translations) == len(google_translations), \
-                    f"Mismatch in number of lines for {phenomenon_key}"
+                    f"Mismatch in number of lines for {phenomenon_key}, with reference: {len(references)}, Helsinki: {len(helsinki_translations)}, Google: {len(google_translations)}"
                 
-                # Calculate scores for both models
-                helsinki_P, helsinki_R, helsinki_F1 = calculate_bert_scores(references, helsinki_translations)
-                google_P, google_R, google_F1 = calculate_bert_scores(references, google_translations)
+                helsinki_P, helsinki_R, helsinki_F1 = scorer.score(helsinki_translations, references)
+                google_P, google_R, google_F1 = scorer.score(google_translations, references)
+                
+                helsinki_F1 = helsinki_F1.numpy()
+                google_F1 = google_F1.numpy()
                 
                 # DataFrame for this phenomenon and version
                 phenomenon_df = pd.DataFrame({
@@ -126,11 +127,17 @@ if __name__ == "__main__":
         print(f"Google: {scores['Google']:.3f}")
     
     
-    results_df.to_csv('detailed_results_full.csv', index=False)
+    results_df.to_csv('detailed_results_full_2.csv', index=False)
     print("\nDetailed results saved to 'detailed_results.csv'")
     
-    # Save interesting examples for each phenomenon
+    # # Save interesting examples for each phenomenon
+    # for phenomenon, examples in interesting_examples.items():
+    #     filename = f'interesting_examples_{phenomenon}_full.csv'
+    #     pd.DataFrame(examples['largest_differences']).to_csv(filename, index=False)
+    #     print(f"Interesting examples for {phenomenon} saved to {filename}")
+
     for phenomenon, examples in interesting_examples.items():
-        filename = f'interesting_examples_{phenomenon}_full.csv'
-        pd.DataFrame(examples['largest_differences']).to_csv(filename, index=False)
-        print(f"Interesting examples for {phenomenon} saved to {filename}")
+        for category, df in examples.items():
+            filename = f'interesting_examples_{phenomenon}_{category}_fuller_2.csv'
+            df.to_csv(filename, index=False)
+            print(f"Saved {category} examples for {phenomenon} to {filename}")

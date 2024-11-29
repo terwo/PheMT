@@ -1,0 +1,11 @@
+Phenomenon,Reference,Helsinki,Google,Helsinki_F1,Google_F1,score_diff
+variant_norm,[大佐、指示をくれ](#bn-fuki5)   ⊂＝[このざま](#bn-dq1),"Ma'am, I need you to tell me what to do.","[Colonel, give instructions] (#bn-fuki5) ⊂ = [this zama] (#bn-dq1)",0.31737328,0.98017156,0.6627983
+variant_norm,かわいい～（╹◡╹）,It's so cute,Cute ~ (╹),0.18646264,0.8024668,0.61600417
+variant_norm,オリハルコン？,Oriharcon?,Orichalcon?,0.32277238,0.0,0.32277238
+variant_norm,怖い...,I'm scared.,scared...,0.68939173,1.0,0.31060827
+variant_norm,あいしてるわダーリン,"I love you, darling.",I love you Darling,0.4021471,0.115424305,0.2867228
+variant_norm,叫ぶのだ,Cry out.,Shout,0.57726604,0.29351667,0.28374937
+variant_norm,今日は🚕で帰ってきたよ。,I came home from work today.,I'm back with 🚕 today.,0.46204105,0.74394155,0.2819005
+variant_norm,お疲れ,Good night.,Thank you,0.5802347,0.30784056,0.27239415
+variant_norm,立派な社畜めう,It's a great company.,A splendid company livestock,0.4072435,0.13765974,0.26958376
+variant_norm,( 'A`)φ < 資格を取るんだ・・・  足でかいから履けない,I can't wear it because it's too big.,('A`) φ <I get a qualification ... I can't wear it because my feet are big,0.3483744,0.599299,0.25092462

@@ -1,0 +1,11 @@
+Phenomenon,Reference,Helsinki,Google,Helsinki_F1,Google_F1,score_diff
+variant_norm,いい,Okay.,good,0.15245967,0.034332287,0.118127376
+variant_norm,この雰囲気がLLLLL,This atmosphere is LLLLL.,This atmosphere is LLLLL,-0.044896066,-0.09620202,0.051305957
+variant_norm,気を付ける。。,Be careful.,Be careful.。,-0.0602964,-0.12038055,0.06008415
+variant_norm,強い,Strong.,strong,-0.08016812,-0.24688494,0.16671681
+variant_norm,お仕事...,Your job...,Work ...,-0.08915927,-0.12541418,0.036254905
+variant_norm,乾杯,Cheers.,cheers,-0.09468096,-0.0010125154,0.09366844
+variant_norm,怖い...,I'm scared.,scared...,-0.11897956,0.07295514,0.1919347
+variant_norm,ぼく、明日、おとまり。,I'm sitting down tomorrow.,"I'm tomorrow, tomorrow.",-0.15800326,-0.22170731,0.06370406
+variant_norm,LLLが安心なの,I feel safe with LLL.,LLL is safe,-0.15825222,-0.076778114,0.08147411
+variant_norm,二次きついもんな。,It's a secondary strain.,Secondary tightness.,-0.17593187,-0.15130447,0.024627402

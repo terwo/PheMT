@@ -1,0 +1,11 @@
+Phenomenon,Reference,Helsinki,Google,Helsinki_F1,Google_F1,score_diff
+colloq_norm,ドカン!,Boom!,Dokan!,0.1791474,-0.02621945,0.20536685
+colloq_norm,いけない,No.,Indistinguishable,0.060462035,-0.46069378,0.52115583
+colloq_norm,三月か,It's March.,March,-0.07184197,-0.014615961,0.05722601
+colloq_norm,エモい,It's hot.,Emo,-0.0848959,-0.15761866,0.072722755
+colloq_norm,へいしょ,Hey.,Hesa,-0.1463037,-0.42153907,0.27523535
+colloq_norm,二次キツイもんな。,It's a secondary strain.,Secondary tough.,-0.14655903,-0.06915582,0.07740321
+colloq_norm,Citrus いいぞこれ  r/anime,"Curls, this is r/anme.",Citrus is good R/Anime,-0.15103078,0.17502248,0.32605326
+colloq_norm,スモールグールか,Small ghoul.,Small ghoul?,-0.16681676,-0.28562117,0.11880441
+colloq_norm,Reddit Gold もらった  うらやましい,Reddit Gold. I'm jealous.,I'm envious of Reddit Gold,-0.18473902,-0.3255998,0.14086077
+colloq_norm,中に出すぞ,Let's get him inside.,I'll put it inside,-0.19968095,-0.2884161,0.08873513

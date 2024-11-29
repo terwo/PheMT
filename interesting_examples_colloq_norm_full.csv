@@ -1,0 +1,11 @@
+Phenomenon,Reference,Helsinki,Google,Helsinki_F1,Google_F1,score_diff
+colloq_norm,いけない,No.,Indistinguishable,0.87459075,0.17076753,0.7038232
+colloq_norm,(´･д･`)いやだ！,No!,(´ ･ Д ･ `) No!,0.32710972,1.0,0.6728903
+colloq_norm,ハマればよさそう,It's a good idea.,It looks like you should be addicted,0.56672686,0.11570354,0.45102334
+colloq_norm,へいしょ,Hey.,Hesa,0.65611106,0.21217683,0.44393423
+colloq_norm,|アルミ|ゴム|電線|ゴム|アルミ||:-:|:-|:-|:-|:-|  ってことか？,I don't know what you're talking about.,| Aluminum | Rubber | Electric | Rubber | Aluminum ||:-|:-|-|:-|,0.3229168,0.75453556,0.43161875
+colloq_norm,わらってる  えへえへ,It's straw. Heh.,Tohehehehe,0.4679671,0.04178688,0.4261802
+colloq_norm,おつかれ,Good afternoon.,Hesitancy,0.46798614,0.05390803,0.41407812
+colloq_norm,おはようポキッ,Good morning.,Good morning pook,0.59735286,0.18939161,0.40796125
+colloq_norm,どちらかというと/r/NewsSokuhou_R/,I'm going to give you a couple of examples.,"If anything,/r/newssokuhou_r/",0.35713497,0.733204,0.37606904
+colloq_norm,ドカン!,Boom!,Dokan!,1.0,0.6302595,0.3697405
