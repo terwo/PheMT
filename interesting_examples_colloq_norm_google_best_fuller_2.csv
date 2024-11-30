@@ -1,11 +1,11 @@
 Phenomenon,Reference,Helsinki,Google,Helsinki_F1,Google_F1,score_diff
-colloq_norm,(´･д･`)いやだ！,No!,(´ ･ Д ･ `) No!,-0.4576654,0.32339007,0.78105545
-colloq_norm,Citrus いいぞこれ  r/anime,"Curls, this is r/anme.",Citrus is good R/Anime,-0.15103078,0.17502248,0.32605326
-colloq_norm,|アルミ|ゴム|電線|ゴム|アルミ||:-:|:-|:-|:-|:-|  ってことか？,I don't know what you're talking about.,| Aluminum | Rubber | Electric | Rubber | Aluminum ||:-|:-|-|:-|,-0.46163353,0.09129025,0.5529238
-colloq_norm,どちらかというと/r/NewsSokuhou_R/,I'm going to give you a couple of examples.,"If anything,/r/newssokuhou_r/",-0.42925,0.07112011,0.50037014
-colloq_norm,三月か,It's March.,March,-0.07184197,-0.014615961,0.05722601
-colloq_norm,ドカン!,Boom!,Dokan!,0.1791474,-0.02621945,0.20536685
-colloq_norm,二次キツイもんな。,It's a secondary strain.,Secondary tough.,-0.14655903,-0.06915582,0.07740321
-colloq_norm,かわいい（╹◡╹）,It's a cute girl.,Cute (╹),-0.27368003,-0.084798776,0.18888125
-colloq_norm,はしら!!!,Ha Ni!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!,Hashira !!!,-0.4314322,-0.085404806,0.34602737
-colloq_norm,まめちゃん🌱どこ？,Where's your wife?,Mame -chan 🌱 Where?,-0.56188107,-0.15590052,0.40598053
+colloq_norm,What is this ...,"Oh, my God.",What is this ...,-0.02694096,1.0,1.026941
+colloq_norm,I don't know...,I don't know.,I don't know...,0.8037991,1.0,0.1962009
+colloq_norm,Mama!,Mom!,Mom!,0.9949519,0.9949519,0.0
+colloq_norm,This is interesting.,This is interesting.,This is interesting,0.9999993,0.92997044,0.07002884
+colloq_norm,I arrived in Italy.,We're in Italy.,I arrived at Italy,0.6880965,0.9088899,0.22079337
+colloq_norm,"earth ""Stop it!""","It's like, ""Stop it!""","Earth ""Stop!""",0.57015383,0.8535766,0.28342277
+colloq_norm,"Ah, I can only drink cold water or hot water.","Oh, I can only drink water or hot water.","Oh, I can only drink water or hot water",0.8838648,0.8520167,0.031848133
+colloq_norm,It is fun.,It's so good to see you.,It's fun,0.28776556,0.83225584,0.5444903
+colloq_norm,I want to become macho.,I want to be a hero.,I want to be a macho,0.7410839,0.80147564,0.060391724
+colloq_norm,This has finally come.,This is good. Don't come here.,This is finally coming,0.2654669,0.7820754,0.5166085

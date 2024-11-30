@@ -1,11 +1,11 @@
 Phenomenon,Reference,Helsinki,Google,Helsinki_F1,Google_F1,score_diff
-variant_norm,[大佐、指示をくれ](#bn-fuki5)   ⊂＝[このざま](#bn-dq1),"Ma'am, I need you to tell me what to do.","[Colonel, give instructions] (#bn-fuki5) ⊂ = [this zama] (#bn-dq1)",-0.4440849,0.058900353,0.50298524
-variant_norm,かわいい～（╹◡╹）,It's so cute,Cute ~ (╹),-0.5584872,-0.06706016,0.491427
-variant_norm,叫ぶのだ,Cry out.,Shout,-0.21696576,-0.4278137,0.21084794
-variant_norm,今日は🚕で帰ってきたよ。,I came home from work today.,I'm back with 🚕 today.,-0.31766036,-0.10854398,0.20911638
-variant_norm,( 'A`)φ < 資格を取るんだ・・・  足でかいから履けない,I can't wear it because it's too big.,('A`) φ <I get a qualification ... I can't wear it because my feet are big,-0.41699317,-0.21106936,0.20592381
-variant_norm,お疲れ,Good night.,Thank you,-0.21437143,-0.41766065,0.20328923
-variant_norm,Intelのプロセッサチップに根本的な設計上の欠陥が発覚、各OSにアップデートの必要性  そろそろ買い替えたいと思ってたし次はryzenとやらにするかな  グッバイインテル,"Intel's processor chip has a basic design flaw, and we need to update each of the OSs, so we're going to want to buy it, and next time we're going to buy it, we're going to buy it, we're going to buy it, we're going to buy it, we're going to buy it, we're going to buy it, we're going to buy it, we're going to buy it, we're going to buy it, we're going to buy it, we're going to buy it, we're going to buy it, we're going to buy it, we're going to buy it, and we're going to buy it, we're going to buy it.","A fundamental design flaw discovers Intel's processor chips, the need for updating to each OS I wanted to buy a new one, and next time I would like to do it with Ryzen.",-0.7214361,-0.52273124,0.19870484
-variant_norm,オリハルコン？,Oriharcon?,Orichalcon?,-0.43936667,-0.6358639,0.19649723
-variant_norm,怖い...,I'm scared.,scared...,-0.11897956,0.07295514,0.1919347
-variant_norm,あいしてるわダーリン,"I love you, darling.",I love you Darling,-0.37000144,-0.55404896,0.18404752
+variant_norm,"Yes, Atami",It's a hot sea.,"Um, Atami",0.08112625,0.9627382,0.88161194
+variant_norm,The power of science is great!,"Oh, my God! Oh, my God!",The power of cracking is amazing!,-0.049952995,0.7430535,0.7930065
+variant_norm,Cheers!,Cheers.,cheers,0.7930898,0.070187055,0.7229028
+variant_norm,What is this warmth!!!!!,Ha Ni!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!,What a warmth!!!!!,-0.2868777,0.42606413,0.7129418
+variant_norm,Orichalcum?,Oriharcon?,Orichalcon?,-0.07532697,0.611293,0.68662
+variant_norm,It's abuse!,It's abuse!,Abuse!,0.99999756,0.33168724,0.6683103
+variant_norm,Rhydon's earthquake!,Cydon's earthquake!,Side earthquake!,0.94066316,0.31247172,0.6281915
+variant_norm,Leave it to Santa,I'll leave it to Santa Claus.,Leave it to Santa,0.3853767,1.0000007,0.614624
+variant_norm,That's unfair!,That's not fair!,Slow!,0.84258085,0.28082982,0.561751
+variant_norm,Ieyasu Tokugawa...,Mr. Tokugawa...,Ieyasu Tokugawa ...,0.39776772,0.9509066,0.55313885

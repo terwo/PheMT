@@ -35,7 +35,7 @@ def evaluate_translations(output_dir='outputs/', ref_dir='./'):
             print(f"\nProcessing {phenomenon_key}...")
             
             try:
-                ref_suffix = f"{phenomenon}/{phenomenon}.ja" if phenomenon == 'proper' else f"{phenomenon}/{phenomenon}.{version}.ja"
+                ref_suffix = f"{phenomenon}/{phenomenon}.en"
                 ref_path = os.path.join(ref_dir, ref_suffix)
                 
                 helsinki_suffix = f"helsinki_{phenomenon}{'' if phenomenon == 'proper' else version}.txt"
@@ -136,6 +136,7 @@ if __name__ == "__main__":
     #     pd.DataFrame(examples['largest_differences']).to_csv(filename, index=False)
     #     print(f"Interesting examples for {phenomenon} saved to {filename}")
 
+    # Save everything
     for phenomenon, examples in interesting_examples.items():
         for category, df in examples.items():
             filename = f'interesting_examples_{phenomenon}_{category}_fuller_2.csv'

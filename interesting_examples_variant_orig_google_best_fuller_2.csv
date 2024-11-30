@@ -1,11 +1,11 @@
 Phenomenon,Reference,Helsinki,Google,Helsinki_F1,Google_F1,score_diff
-variant_orig,[大佐、指示をくれ](#bn-fuki5)   ⊂＝[konozama](#bn-dq1),Tell me what you're gonna do.,"[Colonel, give instructions] (#bn-fuki5) ⊂ = [konozama] (#bn-dq1)",-0.3243676,0.24563156,0.56999916
-variant_orig,イイ,Okay.,Good,0.17391461,0.12481874,0.04909587
-variant_orig,こわい...,I'm scared.,scary...,-0.14985298,0.029440641,0.17929362
-variant_orig,LLLがあんしんなの,I have an LLL.,LLL is good,-0.08741606,0.012281207,0.09969727
-variant_orig,このふいんきがLLLLL,It's called LLLLLLL.,This fluff is LLLLL,-0.048839122,-0.07302083,0.024181709
-variant_orig,二次キッツイもんな。,It's a second-rate hobby.,Secondary kitzii.,-0.18822756,-0.121114425,0.06711314
-variant_orig,かわええ～（╹◡╹）,I'm sorry.,Kawae ~ (╹),-0.40833682,-0.14572664,0.2626102
-variant_orig,steamげーむ,"Come on, come on, come on, come on, come on, come on, come on, come on, come on, come on, come on.",Steam game,-0.6103366,-0.18286726,0.42746934
-variant_orig,( 'A`)φ < 資格を取るんだ・・・  足デカいから履けない,I can't wear it because it's too big.,('A`) φ <I get a qualification ... I can't wear it because my legs are big,-0.4108185,-0.18354428,0.22727421
-variant_orig,いちごはwaifuです,I'm going to show you an example of this.,Strawberry is Waifu,-0.35084063,-0.21681355,0.13402708
+variant_orig,steam game,"Come on, come on, come on, come on, come on, come on, come on, come on, come on, come on, come on.",Steam game,-0.32677016,0.9918462,1.3186164
+variant_orig,I love you darling.,I'm glad you're here.,I love you Darling,0.39281324,0.88725835,0.49444512
+variant_orig,('A`) φ <I'm taking qualification ... I can not wear it because my foot is so big,I can't wear it because it's too big.,('A`) φ <I get a qualification ... I can't wear it because my legs are big,0.3317752,0.8143368,0.4825616
+variant_orig,I'm grateful.,Thank you.,Be grateful,0.33716762,0.68049717,0.34332955
+variant_orig,This atmosphere is LLLLL.,It's called LLLLLLL.,This fluff is LLLLL,0.49567553,0.65867287,0.16299734
+variant_orig,I am drunk now.,I'm working on it.,I'm spoiled now,0.48380363,0.6451082,0.1613046
+variant_orig,"I want to buy a clock, but simple is best.",I'd like to buy a watch.,"I want to buy a clock, but when I do it",0.5623765,0.62974286,0.06736636
+variant_orig,Come to Kusatsuma! The Mayor said we're threat level 1 but really we're at level 3!,"The mayor told me to be on guard, but it was level three.","Come to Kusatsu. The mayor advertised the alert level 1, but it was really level 3.",0.30026573,0.57999223,0.2797265
+variant_orig,I want to move somewhere around the middle of Hokkaido   A moving plan for an LLL village,I want to be in the middle of Hokkaido. I want to be in the village of LLL.,I want to move to the middle of Hokkaido LLL Village Migrate,0.48321915,0.5541874,0.07096827
+variant_orig,"Former Prime Minister Fukuda Yasuo's ""Hate for Abe"".",I hate the former Prime Minister Fukuda.,"Former Prime Minister Yasuo Fukuda ""I hate Abe""",0.35743415,0.54844147,0.19100732

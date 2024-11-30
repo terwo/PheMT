@@ -1,11 +1,11 @@
 Phenomenon,Reference,Helsinki,Google,Helsinki_F1,Google_F1,score_diff
-variant_norm,怖い...,I'm scared.,scared...,-0.11897956,0.07295514,0.1919347
-variant_norm,[大佐、指示をくれ](#bn-fuki5)   ⊂＝[このざま](#bn-dq1),"Ma'am, I need you to tell me what to do.","[Colonel, give instructions] (#bn-fuki5) ⊂ = [this zama] (#bn-dq1)",-0.4440849,0.058900353,0.50298524
-variant_norm,いい,Okay.,good,0.15245967,0.034332287,0.118127376
-variant_norm,乾杯,Cheers.,cheers,-0.09468096,-0.0010125154,0.09366844
-variant_norm,かわいい～（╹◡╹）,It's so cute,Cute ~ (╹),-0.5584872,-0.06706016,0.491427
-variant_norm,LLLが安心なの,I feel safe with LLL.,LLL is safe,-0.15825222,-0.076778114,0.08147411
-variant_norm,この雰囲気がLLLLL,This atmosphere is LLLLL.,This atmosphere is LLLLL,-0.044896066,-0.09620202,0.051305957
-variant_norm,今日は🚕で帰ってきたよ。,I came home from work today.,I'm back with 🚕 today.,-0.31766036,-0.10854398,0.20911638
-variant_norm,気を付ける。。,Be careful.,Be careful.。,-0.0602964,-0.12038055,0.06008415
-variant_norm,お仕事...,Your job...,Work ...,-0.08915927,-0.12541418,0.036254905
+variant_norm,Leave it to Santa,I'll leave it to Santa Claus.,Leave it to Santa,0.3853767,1.0000007,0.614624
+variant_norm,Hot!,It's hot!,hot!,0.45688424,0.9978881,0.5410038
+variant_norm,steam game,team game,Steam game,0.9359442,0.9918462,0.055902004
+variant_norm,"Yes, Atami",It's a hot sea.,"Um, Atami",0.08112625,0.9627382,0.88161194
+variant_norm,This atmosphere is LLLLL.,This atmosphere is LLLLL.,This atmosphere is LLLLL,0.99999964,0.95206004,0.0479396
+variant_norm,Ieyasu Tokugawa...,Mr. Tokugawa...,Ieyasu Tokugawa ...,0.39776772,0.9509066,0.55313885
+variant_norm,I am drunk now.,I'm drunk.,I'm drunk now,0.79501,0.91044235,0.11543238
+variant_norm,I love you darling.,"I love you, darling.",I love you Darling,0.9625345,0.88725835,0.07527614
+variant_norm,"uh, yes","Oh, yeah.","Oh, yes",0.5256721,0.87693155,0.35125947
+variant_norm,I washed the futon mattress.,I washed the rugs.,I washed the mattress,0.68181133,0.8447666,0.16295528

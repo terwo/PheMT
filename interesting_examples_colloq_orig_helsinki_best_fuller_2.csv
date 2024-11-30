@@ -1,11 +1,11 @@
 Phenomenon,Reference,Helsinki,Google,Helsinki_F1,Google_F1,score_diff
-colloq_orig,Reddit Gold もらった  うらやましか,Reddit Gold.,REDDIT GOLD I got Uyamaga,-0.02328185,-0.32689908,0.30361724
-colloq_orig,ドュカン!,Docun!,Dukan!,-0.031613648,-0.0939884,0.062374756
-colloq_orig,Citrus いいゾ～これ  r/anime,"Catrus, this is r/anme",Citrus Good ~ This is R/Anime,-0.12256486,0.081032306,0.20359716
-colloq_orig,エモーい,It's Emo.,Emoi,-0.14125243,-0.36191544,0.22066301
-colloq_orig,二次キッツイもんな。,It's a second-rate hobby.,Secondary kitzii.,-0.18822756,-0.121114425,0.06711314
-colloq_orig,今日の熊  あーあw,Today's bear.,Today's bear ah w,-0.21697141,-0.3435669,0.12659548
-colloq_orig,おはポキッ,I don't like it.,Oha Poki,-0.22194146,-0.29795498,0.07601352
-colloq_orig,ちかれた,I'm lost.,Cheated,-0.22646299,-0.43202022,0.20555723
-colloq_orig,スモールグールかよ,It's a Smallgur.,Is it a small ghoul?,-0.24685422,-0.24615283,0.00070138276
-colloq_orig,キャップ描くのむずい。。,It's easy to make a cap.,It is difficult to draw a cap.。,-0.25115326,-0.23241694,0.018736318
+colloq_orig,I'm hungry.,I'm hungry.,Hungry,0.99999964,0.18193632,0.8180633
+colloq_orig,"Ah, I can only drink cold water or hot water.","Oh, I can only drink water or hot water.","Ah, I can only drink water or hot water",0.8838648,0.85268766,0.031177163
+colloq_orig,I don't know...,I don't know.,I don't know ...,0.8037991,0.832912,0.029112935
+colloq_orig,Looks delicious.,It's delicious.,Deliciousness,0.7633239,0.098124996,0.6651989
+colloq_orig,I arrived in Italy.,We're in Italy.,I arrived at Italy,0.6880965,0.9088899,0.22079337
+colloq_orig,I don't have a reason but I'm sad.,I don't have a reason.,"There is no reason, but",0.6853115,0.48413843,0.20117307
+colloq_orig,I am tired.,I'm lost.,Cheated,0.6813741,0.07329453,0.60807955
+colloq_orig,Girls who eat a lot are cute wow!,The girl who eats so much is cute. Wow.,The girl who eats a lot is cute,0.6716187,0.6985473,0.026928604
+colloq_orig,It could hit somebody.,I'm going to hit someone.,I'm going to run,0.6455606,0.30297482,0.3425858
+colloq_orig,"""I do not know if there was a direct conversation with Sagawa.""","""I don't know if there's a direct talk going on in the Sagawa.""","""I don't know if Sagawa is talking directly to Sagawa.""",0.6370964,0.7341566,0.0970602
